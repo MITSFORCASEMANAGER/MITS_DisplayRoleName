@@ -1,0 +1,135 @@
+/**
+ * Licensed Materials - Property of IBM
+ * (C) Copyright IBM Corp. 2010, 2014
+ * US Government Users Restricted Rights - Use, duplication or disclosure restricted by GSA ADP Schedule Contract with IBM Corp.
+ */
+.icmvnext .icmInline {
+   display: inline;
+}
+.icmvnext .icmInlineBlock {
+   display: inline-block;
+}
+
+.icmvnext .icmFloatRight {
+   float: right;
+}
+
+.dijitRtl .icmvnext .icmFloatRight {
+   float: left;
+}
+
+.icmvnext .icmflyoutMargin {
+   margin-top: -15px;
+   max-width: 500px;
+}
+
+.icmvnext .icmflyoutHeader {
+	height: 35px;
+	margin: -10px -8px 0 -10px;
+	background-color: #F4F4F4;
+}
+
+.icmvnext .icmflyoutSelector  .dijitDropDownButton{
+/*	margin: 1px 0;*/
+}
+.icmvnext .icmflyoutSelector .solutionLoaded{
+	margin: 0.5px 0;
+}
+ 
+.icmvnext .icmSolutionPicker{
+	max-width: 180px;
+	display: inline-block;
+}
+
+.icmvnext .icmRolePicker {
+	max-width: 100% !important;
+	display: inline-block;
+}
+
+.icmvnext .icmflyoutSelector  .dijitButtonText{
+	font-weight: bold;
+	color: #333333 !important;
+	padding: 0.5px 1px 0.5px 3px;
+	max-width: 282px;
+}
+
+.icmvnext .icmflyoutSelector  .dijitArrowButtonInner {
+	display: inline-block;
+}
+
+.icmvnext .icmflyoutSelector .dijitButtonNode {
+    background: none repeat scroll 0 0 transparent;
+    border-top: 0 none;
+    border-right: 0 none;
+    border-left: 0 none;
+	border-bottom: #D2D2D2 1px solid;
+	margin:0 -10px -2px !important;
+/*    padding: 0 0 0 3px;*/
+    position: static;
+    white-space: nowrap;
+	font-weight: normal;
+	max-width: 300px;
+	overflow: hidden;
+	border-radius: 0px !important;
+	box-shadow: none !important;
+}
+
+.icmvnext .icmflyoutSolutionName {
+	font-weight: bold;
+}
+
+.icmvnext .icmflyoutRoleName {
+	margin-left: 2px;
+}
+
+.icmvnext .InitiatedIcon {
+    background-image: url("images/ready.png");	
+	width: 16px;
+	height: 16px;
+}
+
+.icmvnext .CompletedIcon {
+    background-image: url("images/solution_complete.png");	
+	width: 16px;
+	height: 16px;
+}
+
+.icmvnext .FailedIcon {
+    background-image: url("images/errorSmall.png");	
+	width: 16px;
+	height: 16px;
+}
+
+.icmvnext .CompletedWithWarningIcon {
+    background-image: url("images/success_warning.png");	
+	width: 16px;
+	height: 16px;
+}
+
+.icmvnext .dijitTooltipConnector { /* the arrow piece */
+	border: 0;
+	z-index: 2;
+	background-image: url("images/popupSharkfin.png");
+	background-repeat: no-repeat;
+	width: 18px;
+	height: 18px;
+	position: absolute;
+	background-position: -18px 0;
+	left: 180px;
+	top: -10px;
+}
+
+.dj_ie .icmvnext .launchBarContentArea * .dijitDropDownButton .dijitButtonNode
+{
+	filter: Alpha(opacity=100) !important;
+}
+
+.dj_ie .icmvnext .icmflyoutSelector .solutionLoaded{
+	margin: 0.1px 0;
+}
+
+.icmvnext .icmEllipsis {
+  text-overflow: ellipsis;
+  white-space: normal !important;
+  overflow: hidden;
+}
